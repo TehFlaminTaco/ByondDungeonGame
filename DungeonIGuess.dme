@@ -1,0 +1,56 @@
+// DM Environment file for DungeonIGuess.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "icons"
+#define FILE_DIR "sounds"
+#define FILE_DIR "sounds/battle"
+#define FILE_DIR "sounds/interface"
+#define FILE_DIR "sounds/inventory"
+#define FILE_DIR "sounds/misc"
+#define FILE_DIR "sounds/NPC"
+#define FILE_DIR "sounds/NPC/beetle"
+#define FILE_DIR "sounds/NPC/giant"
+#define FILE_DIR "sounds/NPC/gutteral beast"
+#define FILE_DIR "sounds/NPC/misc"
+#define FILE_DIR "sounds/NPC/ogre"
+#define FILE_DIR "sounds/NPC/shade"
+#define FILE_DIR "sounds/NPC/slime"
+#define FILE_DIR "sounds/world"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "_defines.dm"
+#include "_helpers.dm"
+#include "_qdel.dm"
+#include "chunkgen.dm"
+#include "DungeonIGuess.dm"
+#include "mobtick.dm"
+#include "Dungeon.dmm"
+#include "code\click.dm"
+#include "code\damage_info.dm"
+#include "code\resource.dm"
+#include "code\turf.dm"
+#include "code\item\armour.dm"
+#include "code\item\equipment.dm"
+#include "code\item\items.dm"
+#include "code\item\weapon.dm"
+#include "code\mob\living.dm"
+#include "code\mob\mob.dm"
+#include "code\mob\monster.dm"
+#include "code\mob\player.dm"
+#include "code\mob\shop.dm"
+#include "code\structure\buy_podium.dm"
+#include "code\structure\chest.dm"
+#include "code\structure\generator.dm"
+#include "code\structure\structure.dm"
+// END_INCLUDE
+
