@@ -5,7 +5,7 @@
 var/start_time
 
 world
-	fps = 25		// 25 frames per second
+	fps = 30		// 30 frames per second
 	icon_size = 16	// 32x32 icon size by default
 
 	view = 7		// show up to 6 tiles outward from center (13x13 view)
